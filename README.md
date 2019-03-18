@@ -1,3 +1,7 @@
 # DaGuard-station
 
-DaGuard Station provides Web APIs to access DaGuard. 
+The DaGuard Station SDK library provides APIs to send transactions and connect to DaGuard.
+
+
+
+ 
