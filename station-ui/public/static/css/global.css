@@ -1,0 +1,173 @@
+.loading-page {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 981;
+}
+
+.loading-spinner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.loading-page circle {
+    stroke-width: 1.5px;
+    color: #000;
+}
+
+.loading-page p {
+    text-transform: capitalize;
+    color: #000;
+}
+
+.title-text {
+    text-transform: capitalize;
+}
+
+.form-label:first-letter {
+    text-transform: capitalize;
+}
+
+.btn-text {
+    text-transform: uppercase;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.success-text {
+    color: #2c662d;
+}
+
+.danger-text {
+    color: #9f3a38;
+}
+
+.warning-text {
+    color: #573a08;
+}
+
+.info-text {
+    color: #276f86;
+}
+
+.uk-button-primary {
+    background-color: #21CE99;
+}
+
+.uk-tile-primary {
+    background-color: #21CE99;
+}
+
+.uk-button-primary:hover {
+    background-color: #1EBA8B;
+}
+
+.uk-button-primary:focus {
+    background-color: #1BA67C;
+}
+
+.uk-grid-small.contact-number .uk-form-label {
+    margin-bottom: 5px;
+}
+
+.uk-grid-small.contact-number>.uk-grid-margin {
+    margin-top: 0;
+}
+
+.contact-number .uk-dropdown-scrollable {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.uk-button-success {
+    color: #fff;
+    background-color: #21CE99;
+}
+
+.uk-button-success:hover {
+    color: #fff;
+    background-color: #1EBA8B;
+}
+
+.uk-button-success:active {
+    color: #fff;
+    background-color: #1BA67C;
+}
+
+.uk-button-success:disabled {
+    background-color: transparent;
+    color: #8a8a8a;
+    border: 1px solid #EAEAEA;
+}
+
+.uk-button-normal {
+    color: #21CE99;
+    border: 1px solid #21CE99;
+    background-color: #ffffff;
+}
+
+.uk-button-normal:hover {
+    color: #21CE99;
+    border: 1px solid #21CE99;
+    background-color: #CFF2E7;
+}
+
+.uk-button-danger {
+    color: #E9553B;
+    border: 1px solid #E9553B;
+    background-color: #ffffff;
+}
+
+.uk-button-danger:hover {
+    color: #E9553B;
+    border: 1px solid #E9553B;
+    background-color: #FFDED9;
+}
+
+.uk-button-disabled {
+    color: #ffffff;
+    background-color: #C4C4C4;
+}
+
+.wallet-public-key-card-checked {
+    border: 1px solid #21CE99;
+}
+
+.wallet-public-key-card-default {
+    border: 1px solid #C4C4C4;
+}
+
+.wallet-public-key-card-checked>h3 {
+    color: #21CE99!important;
+}
+
+.global-message .uk-notification-message-warning {
+    color: #573a08;
+    background-color: #fffaf3;
+    box-shadow: 0 0 0 1px #c9ba9b inset, 0 0 0 0 transparent;
+}
+
+.global-message .uk-notification-message-success {
+    color: #21ce99;
+    background-color: #fafffa;
+    box-shadow: 0 0 0 1px #7dd1b7 inset, 0 0 0 0 transparent;
+}
+
+.global-message .uk-notification-message-danger {
+    color: #e84725;
+    background-color: #fff7f7;
+    box-shadow: 0 0 0 1px #e38e81 inset, 0 0 0 0 transparent;
+}
+
+.global-message .uk-notification-message-primary {
+    color: #276f86;
+    background-color: #f8ffff;
+    box-shadow: 0 0 0 1px #a9d5de inset, 0 0 0 0 transparent;
+}

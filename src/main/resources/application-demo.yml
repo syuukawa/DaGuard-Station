@@ -1,0 +1,7 @@
+server:
+  port: 8657
+
+daguard:
+  url: https://beta.daguard.com
+
+networkMode: TESTNET

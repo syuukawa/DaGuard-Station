@@ -1,0 +1,7 @@
+server:
+  port: 8657
+
+daguard:
+  url: http://192.168.100.87:4002
+
+networkMode: TESTNET
