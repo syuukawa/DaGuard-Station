@@ -1,0 +1,20 @@
+export default {
+
+    API_GATEWAY_ERROR: "API gateway error",
+    API_NOT_FOUND: "API not found",
+    CHECK_EMAIL_TO_ACTIVATE: "An account has been created, please check the activation link in email ${data.email}",
+    CHECK_EMAIL_TO_RESET_PASSWORD: "Reset password email has been sent to email ${data.email}, please check",
+    COPY: "copied to clipboard",
+    EMAIL_CONFIRM_SUCCESS: "Email ${data.email} confirmation success",
+    EXCEED_RATE_LIMIT: "Request rate limit exceeded",
+    FIELD_IS_REQUIRED: "<b>${data.field}</b> is required",
+    GATEWAY_SERVICE_NOT_AVAILABLE: "Gateway service is not avaiable now",
+    INACTIVE_INSTRUMENT: "Inactive instrument",
+    INSUFFICIENT_PERMISSION: "Insufficent permission",
+    PASSWORD_IS_RESET: "Your password has been reset, please login",
+    PASSWORD_MISMATCH: "The two passwords you entered did not match",
+    REQUEST_TIMEOUT: "Request timeout",
+    SESSION_EXPIRED: "Session expired",
+    UNKNOWN_ERR: "Unknown error happened",
+    WITHDRAW_SUCCESS: "Submitted withdraw request",
+}
